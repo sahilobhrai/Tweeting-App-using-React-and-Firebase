@@ -1,0 +1,23 @@
+.sidebar{
+    border-right: 1px solid var(--background-body-color);
+    flex: 0.3;
+    min-width: 250px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sidebar_logo{
+    color: var(--body-color);
+    font-size: 30px !important;
+    margin: 0 0 20px 20px;
+}
+.sidebar_tweet{
+    background-color: var(--body-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+}

@@ -1,0 +1,47 @@
+.feed{
+    flex: 0.7;
+    border-right: 1px solid var(--background-body-color);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+/*hide scrollbar*/
+.feed::-webkit-scrollbar{
+    display: none;
+}
+.feed__header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 1px solid var(--background-body-color);
+    
+    padding: 10px 20px;
+}
+.feed__header > h2{
+    font-size: 20px;
+    font-weight: 800;
+  
+}
+.widgets__input{
+    display: flex;
+    align-items: center;
+    border:2px solid var(--background-body-color);
+    padding: 2px 5px;
+    border-radius: 20px;
+    margin-left: auto;
+    overflow: hidden;
+}
+.widgets__input > input{
+    border: none;
+    padding: 5px;
+  
+}
+.widgets__input > input:focus{
+    outline-width: 0;
+  
+}
+.widgets__searchIcon{
+    color: gray;
+    
+}
